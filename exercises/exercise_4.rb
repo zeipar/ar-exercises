@@ -22,3 +22,5 @@ end
 @womens_store_lt_1M.each do | store |
   puts "Store Name: #{store.name}, Annual Revenue: #{store.annual_revenue}"
 end
+
+pp @womens_store_lt_1M
